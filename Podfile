@@ -6,5 +6,7 @@ target 'PodTest' do
   use_frameworks!
 
   # Pods for PodTest
+  pod 'R.swift'
+  pod 'Alamofire'
 
 end
