@@ -1,0 +1,8 @@
+input_dir: PodTest/Resources/
+output_dir: PodTest/Generated/
+strings:
+  inputs: Base.lproj
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift4
+      output: L10n-Constants.swift
